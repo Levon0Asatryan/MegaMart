@@ -1,11 +1,9 @@
 import Image from "next/image";
 
-type Props = {};
-
-const TopNav = (props: Props) => {
+const TopNav = () => {
   return (
     <nav className="nav">
-      <div>Welcome to worldwide Megamart!</div>
+      <div className="hidden md:flex">Welcome to worldwide Megamart!</div>
       <div className="flex">
         <div className="flex  mx-2 cursor-pointer items-center	">
           <Image
