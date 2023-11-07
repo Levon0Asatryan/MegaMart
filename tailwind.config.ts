@@ -21,8 +21,9 @@ const config: Config = {
         background1: "#F5F5F5",
         background2: "#F6F6FC",
         background3: "#F3F9FB",
-        yellow1: "E3BC01",
-        line: "D9D9D9",
+        yellow1: "#E3BC01",
+        line: "#D9D9D9",
+        heading: "#222222",
       },
       fontSize: {
         xxs: "10px",

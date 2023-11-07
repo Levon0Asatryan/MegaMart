@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Search from "./Search";
+import Search from "../Search";
 
 const MidNav = () => {
   return (
