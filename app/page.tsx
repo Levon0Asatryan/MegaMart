@@ -1,3 +1,9 @@
+import MidCarousel from "./(components)/MidCarousel";
+
 export default function Dashboard() {
-  return <div></div>;
+  return (
+    <div>
+      <MidCarousel />
+    </div>
+  );
 }
