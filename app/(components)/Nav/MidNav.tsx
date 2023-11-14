@@ -16,7 +16,7 @@ const MidNav = ({ setBotNavOpened }: Props) => {
             height={43}
             width={43}
             alt="more"
-            className="mr-2 cursor-pointer h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10"
+            className="mr-2 cursor-pointer h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 active:p-0.5 "
             onClick={() => {
               setBotNavOpened((prev: Boolean) => !prev);
             }}
@@ -32,8 +32,8 @@ const MidNav = ({ setBotNavOpened }: Props) => {
           <div className="hidden md:flex">
             <Search className="" />
           </div>
-          <div className="flex ml-6">
-            <div className="flex mr-3 items-center">
+          <div className="flex ml-6 justify-center items-center">
+            <div className="flex mr-3 items-center ">
               <Image
                 src="/user.svg"
                 height={21}
@@ -46,7 +46,7 @@ const MidNav = ({ setBotNavOpened }: Props) => {
               <div className="mid-text cursor-pointer">Sign In</div>
             </div>
             <div className="mid-text mr-3 items-center">|</div>
-            <div className="flex cursor-pointer items-center">
+            <div className="flex cursor-pointer items-center ">
               <Image
                 src="/Buy.svg"
                 height={21}
