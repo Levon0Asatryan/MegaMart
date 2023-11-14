@@ -2,7 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Search from "../Search";
 
-const MidNav = () => {
+type Props = {
+  setBotNavOpened: Function;
+};
+
+const MidNav = ({ setBotNavOpened }: Props) => {
   return (
     <nav>
       <div className=" flex justify-between items-center h-16 md:h-20 px-8 md:px-20 border-b-1 border-border">
@@ -13,6 +17,9 @@ const MidNav = () => {
             width={43}
             alt="more"
             className="mr-2 cursor-pointer h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10"
+            onClick={() => {
+              setBotNavOpened((prev: Boolean) => !prev);
+            }}
           />
           <Link
             href="/"

@@ -43,6 +43,40 @@
   }
 
   .mid-text {
-    @apply text-text text-xxxs sm:text-sm md:text-base;
+    @apply text-text text-xxs sm:text-sm md:text-base;
+  }
+
+  .opacity-0.translate-y-full {
+    animation: fadeOutToTop 1s forwards;
+  }
+
+  .opacity-100.translate-y-0 {
+    animation: fadeInFromTop 1s forwards;
+  }
+
+  .navbar {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutToTop {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-30%);
   }
 }

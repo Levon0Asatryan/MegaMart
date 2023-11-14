@@ -9,8 +9,8 @@ const NavButton = ({ text, active = false }: Props) => {
   return (
     <div
       className={`h-10 ${
-        active ? "bg-primary text-white" : "bg-background3 text-heading"
-      } px-4 flex justify-center items-center rounded-3xl cursor-pointer text-sm`}
+        active ? "bg-primary text-white " : "bg-background3 text-heading"
+      } px-4 flex justify-center items-center rounded-3xl cursor-pointer lg:text-xsm text-xs`}
     >
       {text}
       {active ? (
@@ -19,7 +19,7 @@ const NavButton = ({ text, active = false }: Props) => {
           height={18}
           width={18}
           alt="Arrow"
-          className="ml-1"
+          className="ml-1 "
         />
       ) : (
         <Image
