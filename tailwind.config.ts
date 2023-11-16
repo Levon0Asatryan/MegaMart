@@ -24,6 +24,7 @@ const config = withMT({
         yellow1: "#E3BC01",
         line: "#D9D9D9",
         heading: "#222222",
+        save: "#249B3E",
       },
       fontSize: {
         xxs: "10px",

@@ -35,7 +35,7 @@
   }
 
   .search-input {
-    @apply h-12 sm:w-40 md:w-48 lg:w-96 bg-background3 focus:outline-none placeholder:text-text placeholder:text-sm;
+    @apply h-12 sm:w-40 md:w-48 lg:w-80 bg-background3 focus:outline-none placeholder:text-text placeholder:text-sm;
   }
 
   .search-under {

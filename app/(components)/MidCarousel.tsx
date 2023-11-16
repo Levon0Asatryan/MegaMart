@@ -7,9 +7,9 @@ type Props = {};
 
 const MidCarousel = (props: Props) => {
   return (
-    <div className="lg:h-80 xl:h-96 md:h-72 sm:h-64 h-52  flex justify-center items-center px-8  md:px-20 py-6 md:py-8">
+    <div className="lg:h-80 xl:h-96 md:h-72 sm:h-64 h-52  flex justify-center items-center px-8  md:px-20 py-6 md:py-8 ">
       <Carousel
-        className="rounded-3xl"
+        className="rounded-3xl cursor-pointer"
         prevArrow={({ handlePrev }) => (
           <IconButton
             variant="text"
